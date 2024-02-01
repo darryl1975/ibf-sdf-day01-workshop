@@ -13,7 +13,8 @@ import java.util.Scanner;
 // jar -c -v -f day01.jar -e App . (Do inside bin folder)
 //
 // 4. run the jar package (slide 12)
-// 
+// java -cp bin/day01.jar App
+// java -cp day01.jar App (run inside bin folder)
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Welcome to your shopping cart");
